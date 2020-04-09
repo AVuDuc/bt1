@@ -4,7 +4,7 @@ urls = (
 )
 class index:
     def GET(self):
-        return "Welcome !!! Vũ Đức Anh !"
+        return "Welcome !!! Vu Duc Anh !"
 
 if __name__ == "__main__":
     app = web.application(urls, globals())
